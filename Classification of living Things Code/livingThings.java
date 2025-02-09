@@ -1,13 +1,13 @@
 public class livingThings{
 //fields
-private boolean movement;
-private boolean reproduction;
-private int nutritionNumber; // I thought it would be fun to get down the number of times an organism would eat as a fun fact
-private boolean irritability;
-private String growthDate; //I decided to make this a string to generate fun facts
-private char excretion;
-private char respirationType;
-private boolean death;
+protected boolean movement;
+protected  boolean reproduction;
+protected  int nutritionNumber; // I thought it would be fun to get down the number of times an organism would eat as a fun fact
+protected boolean irritability;
+protected String growthDate; //I decided to make this a string to generate fun facts
+protected char excretion;  //first character of the method of excretion
+protected  char respirationType; //anerobic // aerobic
+protected  boolean death;
 //no-args constructor
 public livingThings(){
     this.movement = false;
@@ -15,8 +15,8 @@ public livingThings(){
     this.nutritionNumber = 0;
     this.irritability = true;
     this.growthDate = null;
-    this.excretion = "N";
-    this.respirationType = "U";
+    this.excretion = 'N';
+    this.respirationType = 'U';
     this.death = true;
 }
 //full-args constructor
@@ -32,4 +32,56 @@ public livingThings(boolean movement, boolean reproduction, int nutritionNumber,
 }
 //methods, getters and setters 
 
+    public livingThings(boolean death) {
+        this.death = death;
+    }
+
+public boolean getMovement(){
+    return movement;
+}
+public void setMovement(boolean movement){
+    this.movement = movement;
+}
+public boolean getReproduction(){
+    return reproduction;
+}
+public void setReproduction(boolean reproduction){
+    this.reproduction = reproduction;
+}
+public int getNutritionNumber(){
+    return nutritionNumber;
+}
+public void setNutritionNumber(int nutritionNumber){
+    this.nutritionNumber = nutritionNumber;
+}
+public boolean getIrritability(){
+    return irritability;
+}
+public void setIrritability(boolean irritability){
+    this.irritability = irritability;
+}
+public String getGrowthDate(){
+    return growthDate;
+}
+public void setGrowthDate(String growthDate){
+    this.growthDate = growthDate;
+}
+public char getExcretion(){
+    return excretion;
+}
+public void setExcretion(char excretion){
+    this.excretion = excretion;
+}
+public char getRespirationType(){
+    return respirationType;
+}
+public void setRespirationType( char respirationType){
+    this.respirationType = respirationType;
+}
+public boolean getDeath(){
+    return death;
+}
+public void setDeath(boolean death){
+    this.death= death;
+}
 }
