@@ -32,7 +32,7 @@ public livingThings(boolean movement, boolean reproduction, int nutritionNumber,
 }
 //methods, getters and setters 
 
-    public livingThings(boolean death) {
+public livingThings(boolean death) {
         this.death = death;
     }
 
