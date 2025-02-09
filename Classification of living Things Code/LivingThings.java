@@ -1,4 +1,4 @@
-public class livingThings{
+public class LivingThings{
 //fields
 protected boolean movement;
 protected  boolean reproduction;
