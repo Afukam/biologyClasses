@@ -9,7 +9,7 @@ protected char excretion;  //first character of the method of excretion
 protected  char respirationType; //anerobic // aerobic
 protected  boolean death;
 //no-args constructor
-public livingThings(){
+public LivingThings(){
     this.movement = false;
     this.reproduction = false;
     this.nutritionNumber = 0;
@@ -20,7 +20,7 @@ public livingThings(){
     this.death = true;
 }
 //full-args constructor
-public livingThings(boolean movement, boolean reproduction, int nutritionNumber, boolean irritability, String growthDate, char excretion, char respirationType, boolean death){
+public LivingThings(boolean movement, boolean reproduction, int nutritionNumber, boolean irritability, String growthDate, char excretion, char respirationType, boolean death){
     this.movement = movement;
     this.reproduction = reproduction;
     this.nutritionNumber = nutritionNumber;
@@ -32,7 +32,7 @@ public livingThings(boolean movement, boolean reproduction, int nutritionNumber,
 }
 //methods, getters and setters 
 
-public livingThings(boolean death) {
+public LivingThings(boolean death) {
         this.death = death;
     }
 

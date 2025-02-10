@@ -6,14 +6,14 @@ public class Plantae extends LivingThings{
 
 // no-args constructors 
 
-public plants(){
+public Plantae(){
     this.nutrientType = 'U';
     this.reproductionType = "Unknown";
     this.cellStructure = false;
     this.cellCount = 0;
 }
 //full-args constructor
-public plants(boolean movement, boolean reproduction, int nutritionNumber, boolean irritability, String growthDate, char excretion, char respirationType, boolean death, char nutrientType, String reproductionType, boolean cellStructure, int cellCount){
+public Plantae(boolean movement, boolean reproduction, int nutritionNumber, boolean irritability, String growthDate, char excretion, char respirationType, boolean death, char nutrientType, String reproductionType, boolean cellStructure, int cellCount){
     super(movement, reproduction, nutritionNumber, irritability, growthDate, excretion, respirationType, death);
     this.nutrientType = nutrientType;
     this.reproductionType = reproductionType;
