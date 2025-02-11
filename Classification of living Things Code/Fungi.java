@@ -26,4 +26,12 @@ public Fungi(boolean movement, boolean reproduction, int nutritionNumber, boolea
     this.asexual = asexual;
     this.reproductionMethod = reproductionMethod;
 }
+//getters and setters
+public void setcellCount(int cellCount){
+    this.cellCount = cellCount;
+}
+public int getcellCount(){
+    return cellCount;
+}
+public void setParasite()
 }
