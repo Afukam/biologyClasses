@@ -33,5 +33,28 @@ public void setcellCount(int cellCount){
 public int getcellCount(){
     return cellCount;
 }
-public void setParasite()
+public void setParasite(boolean parasite){
+    this.parasite = parasite;
+}
+public boolean getParasite(){
+    return parasite;
+}
+public void setNutritionMethod(String nutritionMethod){
+    this.nutritionMethod = nutritionMethod;
+}
+public String getNutritionMethod(){
+    return nutritionMethod;
+}
+public void setAsexual(boolean asexual){
+    this.asexual = asexual;
+}
+public boolean getAsexual(){
+    return asexual;
+}
+public void setReproductionMethod(String reproductionMethod){
+    this.reproductionMethod = reproductionMethod;
+}
+public String getReproductionMethod(){
+    return reproductionMethod;
+}
 }
